@@ -77,7 +77,6 @@ It saves the information of detected phishing domains to an XML file. For exampl
   <phishing_score>85</phishing_score>
 </domain>
 ```
-**
 
 ## Installation
 Jeopardize requires Python3 to work and tested on macOS, Ubuntu 18.04 and Debian based Linux systems. First, clone the repo:
@@ -96,7 +95,7 @@ You also need to install chromedriver for selenium (Required for form filling. I
 
 **on Ubuntu:** Run `sudo apt install chromium-chromedriver`
 
-**on Kali:** Run `pip3 install chromedriver-binary`
+**on Kali(Debian-based):** Run `pip3 install chromedriver-binary`
 
 **on macOS:** Run `brew cask install chromedriver`
 
