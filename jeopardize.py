@@ -163,7 +163,7 @@ def website_form_check(domain):
     if "<form " in r.text:
         if r.history:
             redir_domain = r.url.split("://")[1].split("/")[0].strip("www.")
-            if redir_domain == base_domain:
+            if redir_domain == domain:
                 return "false_positive"
             else:
                 return True
