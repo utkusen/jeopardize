@@ -483,5 +483,7 @@ except:
     pass
 
 out_xml = argv.domain + ".xml"
-action(argv.domain,argv.type,argv.userlist,argv.passlist,fillflag)
+
+if __name__ == '__main__':
+    action(argv.domain,argv.type,argv.userlist,argv.passlist,fillflag)
 
