@@ -9,7 +9,7 @@ pytz==2019.3
 requests==2.22.0
 selenium==3.141.0
 six==1.13.0
-urllib3==1.25.7
+urllib3==1.25.8
 whois==0.9.5
 colorama
 termcolor
